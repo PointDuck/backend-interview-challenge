@@ -35,3 +35,6 @@ Panache would have also let me create the @ManyToMany relation with ease.
 I decided to use the default Objects.
 I opted to create a relations table "cases_to_documents" to map the many to many relation between cases and documents.
 I have also decided not to include tests, and do these via Postman.
+
+The other main challenge was to replace the default ID that the MongoClient creates with my UUID system.
+This was again easy in Panache, but I could not find a way to do it here.
